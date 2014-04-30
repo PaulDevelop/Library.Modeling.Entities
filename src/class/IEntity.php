@@ -2,6 +2,18 @@
 
 namespace Com\PaulDevelop\Library\Modeling\Entities;
 
+/**
+ * IEntity
+ *
+ * @package  Com\PaulDevelop\Library\Modeling\Entities
+ * @category Modeling\Entities
+ * @author   Rüdiger Scheumann <code@pauldevelop.com>
+ * @license  http://opensource.org/licenses/MIT MIT
+ *
+ * @property string $Namespace
+ * @property string $Name
+ * @property PropertyCollection $Properties
+ */
 interface IEntity
 {
     #region methods

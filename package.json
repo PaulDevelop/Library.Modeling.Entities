@@ -1,6 +1,6 @@
 {
     "name": "Com.PaulDevelop.Library.Modeling.Entities",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Library to model entities.",
     "devDependencies": {
         "grunt": "~0.4.2",
