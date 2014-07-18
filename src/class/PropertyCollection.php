@@ -17,7 +17,7 @@ class PropertyCollection extends GenericCollection
     // #region constructor
     public function __construct()
     {
-        parent::__construct('Com\PaulDevelop\Library\Data\Modeling\Entities\IProperty');
+        parent::__construct('Com\PaulDevelop\Library\Modeling\Entities\IProperty');
     }
     // #endregion
 }
