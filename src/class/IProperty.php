@@ -14,12 +14,12 @@ namespace Com\PaulDevelop\Library\Modeling\Entities;
  */
 interface IProperty
 {
-    /**
-     * Namespace
-     *
-     * @return string
-     */
-    public function getNamespace();
+//    /**
+//     * Namespace
+//     *
+//     * @return string
+//     */
+//    public function getNamespace();
 
     /**
      * Name
