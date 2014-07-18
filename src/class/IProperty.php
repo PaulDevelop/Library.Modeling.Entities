@@ -11,6 +11,7 @@ namespace Com\PaulDevelop\Library\Modeling\Entities;
  * @license  http://opensource.org/licenses/MIT MIT
  *
  * @property string $Name
+ * @property AttributeCollection $Attributes
  */
 interface IProperty
 {

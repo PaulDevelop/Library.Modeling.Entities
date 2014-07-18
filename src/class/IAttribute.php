@@ -10,7 +10,9 @@ namespace Com\PaulDevelop\Library\Modeling\Entities;
  * @author   Rüdiger Scheumann <code@pauldevelop.com>
  * @license  http://opensource.org/licenses/MIT MIT
  *
- * @property string $Name
+ * @property string $Namespace
+ * @property string $Key
+ * @property string $Value
  */
 interface IAttribute
 {
