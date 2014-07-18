@@ -57,6 +57,12 @@ interface IEntity
      * @return PropertyCollection
      */
     public function getProperties();
-    //Collection<IProperty> Properties
+
+    /**
+     * GetAttributes
+     *
+     * @return AttributeCollection
+     */
+    public function getAttributes();
     #endregion
 }

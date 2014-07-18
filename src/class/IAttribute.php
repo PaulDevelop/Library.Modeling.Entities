@@ -3,7 +3,7 @@
 namespace Com\PaulDevelop\Library\Modeling\Entities;
 
 /**
- * IProperty
+ * IAttribute
  *
  * @package  Com\PaulDevelop\Library\Modeling\Entities
  * @category Modeling\Entities
@@ -12,19 +12,26 @@ namespace Com\PaulDevelop\Library\Modeling\Entities;
  *
  * @property string $Name
  */
-interface IProperty
+interface IAttribute
 {
     /**
-     * Name
+     * Namespace
      *
      * @return string
      */
-    public function getName();
+    public function getNamespace();
 
     /**
-     * GetAttributes
+     * Key
      *
-     * @return AttributeCollection
+     * @return string
      */
-    public function getAttributes();
+    public function getKey();
+
+    /**
+     * Value
+     *
+     * @return string
+     */
+    public function getValue();
 }
