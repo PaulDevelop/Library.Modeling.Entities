@@ -13,7 +13,7 @@ namespace Com\PaulDevelop\Library\Modeling\Entities;
  * @property string $Namespace
  * @property string $Name
  * @property PropertyCollection $Properties
- * @property AttributeCollection $Attribtes
+ * @property AttributeCollection $Attributes
  */
 interface IEntity
 {
