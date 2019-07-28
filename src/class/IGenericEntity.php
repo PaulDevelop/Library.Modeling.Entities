@@ -18,23 +18,23 @@ namespace Com\PaulDevelop\Library\Modeling\Entities;
 interface IGenericEntity
 {
     #region methods
-    /**
-     * HasProperty.
-     *
-     * @param string $propertyName
-     *
-     * @return boolean
-     */
-    public function hasProperty($propertyName);
-
-    /**
-     * GetProperty.
-     *
-     * @param string $propertyName
-     *
-     * @return IProperty
-     */
-    public function getProperty($propertyName);
+//    /**
+//     * HasProperty.
+//     *
+//     * @param string $propertyName
+//     *
+//     * @return boolean
+//     */
+//    public function hasProperty($propertyName);
+//
+//    /**
+//     * GetProperty.
+//     *
+//     * @param string $propertyName
+//     *
+//     * @return IProperty
+//     */
+//    public function getProperty($propertyName);
     #endregion
 
     #region properties
@@ -52,12 +52,12 @@ interface IGenericEntity
      */
     public function getName();
 
-    /**
-     * Properties.
-     *
-     * @return PropertyCollection
-     */
-    public function getProperties();
+//    /**
+//     * Properties.
+//     *
+//     * @return PropertyCollection
+//     */
+//    public function getProperties();
 
     /**
      * GetAttributes
